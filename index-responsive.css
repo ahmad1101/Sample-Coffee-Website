@@ -1,0 +1,443 @@
+/* This css file is for making the website responsive */
+
+@media only screen and (max-width: 1309px)
+{
+  .info .right img{
+    width: 34%;
+    height: 30%;
+  }
+
+  .menu .left{
+    width: 40%;
+  }
+
+  .menu .left img{
+    width: 200px;
+    height: 180px;
+  }
+}
+
+@media only screen and (max-width: 1100px)
+{
+  .main .overlay .cont h1{
+    font-size: 44px;
+  }
+
+  .main .overlay .cont h2{
+    font-size: 52px;
+  }
+
+  .info .left h2{
+    font-size: 40px;
+  }
+
+  .info .left p{
+    font-size: 19px;
+  }
+
+  .third .overlay .cont h2{
+    font-size: 46px;
+  }
+
+  .third .overlay .cont h2{
+    font-size: 42px;
+  }
+
+  .menu .left img{
+    width: 180px;
+    height: 140px;
+    margin: 4px;
+  }
+
+  .menu .right h2{
+    font-size: 40px;
+  }
+
+  .menu .right p{
+    font-size: 19px;
+  }
+
+  .fifth .overlay .cont h2{
+    font-size: 42px;
+  }
+
+  .contact .contact-form input{
+    height: 36px;
+  }
+
+  .contact .contact-form input[type=submit]{
+    height: 36px;
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 939px)
+{
+  .info .left{
+    width: 50%;
+    margin-left: -70px;
+  }
+
+  .menu .left{
+    margin-left: -140px;
+    justify-content: center;
+    width: 50%;
+  }
+
+  .menu .left img{
+    width: 180px;
+    height: 140px;
+  }
+}
+
+@media only screen and (max-width: 820px)
+{
+  .info .left h2{
+    font-size: 36px;
+  }
+
+  .info .left p{
+    font-size: 18px;
+  }
+
+  .menu .left img{
+    width: 160px;
+    height: 110px;
+  }
+
+  .menu .right h2{
+    font-size: 36px;
+  }
+
+  .menu .right p{
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 780px)
+{
+  .menu{
+    flex-direction: column;
+  }
+
+  .menu .left{
+    width: 80%;
+  }
+  .menu .left img{
+    width: 200px;
+    height: 180px;
+    margin: 10px;
+  }
+
+  .menu .right{
+    width: 100%;
+    margin-left: -150px;
+    margin-top: 50px;
+  }
+
+  .contact h2{
+    font-size: 36px;
+  }
+
+  .contact .contact-form input{
+    width: 500px;
+  }
+
+  .contact .contact-form textarea{
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 700px)
+{
+  .main .overlay .cont h1{
+    font-size: 36px;
+  }
+
+  .main .overlay .cont h2{
+    font-size: 40px;
+  }
+
+.third .overlay .cont h2{
+    font-size: 36px;
+    width: 60%;
+  }
+
+.fifth .overlay .cont h2{
+    font-size: 36px;
+    width: 50%;
+  }
+
+  .info{
+    flex-direction: column;
+  }
+
+  .info .left{
+    width: 100%;
+    margin-left: -180px;
+  }
+
+  .info .right{
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 8%;
+  }
+
+  .info .right img{
+    width: 30%;
+    height: 86%;
+  }
+}
+
+@media only screen and (max-width: 620px)
+{
+  .contact h2{
+    font-size: 34px;
+  }
+
+  .contact .contact-form input{
+    width: 440px;
+  }
+
+  .contact .contact-form textarea{
+    width: 440px;
+  }
+
+  .contact .contact-form input[type=submit]{
+    margin-left: 36%;
+  }
+}
+
+@media only screen and (max-width: 580px)
+{
+  .navbar{
+    flex-wrap: wrap;
+    padding
+  }
+  .navbar ul{
+    flex-direction: column;
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar ul li{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    border-bottom: 1px solid black;
+    padding: 0px;
+  }
+  .navbar ul li a{
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .menu-btn{
+    display: block;
+  }
+
+  .info .right{
+    margin-left: 3%;
+  }
+
+  .menu .left img{
+    width: 170px;
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 540px)
+{
+  .info .right{
+    margin-left: 0%;
+  }
+
+  .contact .contact-form input{
+    width: 410px;
+  }
+
+  .contact .contact-form textarea{
+    width: 410px;
+  }
+
+  .contact .contact-form input[type=submit]{
+    margin-left: 34%;
+  }
+}
+
+@media only screen and (max-width: 484px)
+{
+  .info .right{
+    margin-left: -4%;
+  }
+
+  .contact .contact-form input{
+    width: 360px;
+  }
+
+  .contact .contact-form textarea{
+    width: 360px;
+  }
+
+  .contact .contact-form input[type=submit]{
+    margin-left: 32%;
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 476px)
+{
+  .menu .left{
+    width: 100%;
+  }
+
+  .menu .left img{
+    width: 150px;
+    height: 140px;
+    margin: 10px;
+  }
+
+  .info .left h2{
+    font-size: 32px;
+  }
+
+  .menu .right h2{
+    font-size: 32px;
+  }
+
+  .info .left p{
+    font-size: 17px;
+  }
+
+  .menu .right p{
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 420px)
+{
+  .main .overlay .cont h1{
+    font-size: 30px;
+  }
+
+  .main .overlay .cont h2{
+    font-size: 34px;
+  }
+
+.third .overlay .cont h2{
+    font-size: 30px;
+    width: 60%;
+  }
+
+.fifth .overlay .cont h2{
+    font-size: 30px;
+    width: 50%;
+  }
+
+  .info .right{
+    margin-left: -22%;
+  }
+
+  .info .right img{
+    width: 36%;
+    height: 90%;
+  }
+
+  .menu .left img{
+    width: 200px;
+    height: 170px;
+  }
+
+  .contact h2{
+    font-size: 32px;
+  }
+
+  .contact .contact-form input{
+    width: 310px;
+  }
+
+  .contact .contact-form textarea{
+    width: 310px;
+  }
+
+  .contact .contact-form input[type=submit]{
+    margin-left: 28%;
+  }
+}
+
+@media only screen and (max-width: 360px)
+{
+  .main .overlay .cont h1{
+    font-size: 28px;
+  }
+
+  .main .overlay .cont h2{
+    font-size: 30px;
+  }
+
+.third .overlay .cont h2{
+    font-size: 28px;
+    width: 60%;
+  }
+
+.fifth .overlay .cont h2{
+    font-size: 28px;
+    width: 50%;
+  }
+
+  .info .right{
+    margin-left: -30%;
+  }
+
+  .menu .left img{
+    width: 180px;
+    height: 160px;
+  }
+
+  .contact h2{
+    font-size: 30px;
+  }
+
+  .contact .contact-form input{
+    width: 280px;
+  }
+
+  .contact .contact-form textarea{
+    width: 280px;
+  }
+
+  .contact .contact-form input[type=submit]{
+    margin-left: 28%;
+    width: 140px;
+  }
+}
+
+@media only screen and (max-width: 320px)
+{
+  .info .right{
+    margin-left: -34%;
+  }
+
+  .menu .left img{
+    width: 170px;
+    height: 150px;
+  }
+
+  .contact .contact-form input{
+    width: 260px;
+  }
+
+  .contact .contact-form textarea{
+    width: 260px;
+  }
+
+  .contact .contact-form input[type=submit]{
+    margin-left: 28%;
+    width: 130px;
+  }
+}
